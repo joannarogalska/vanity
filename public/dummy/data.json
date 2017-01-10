@@ -1,0 +1,22 @@
+[
+  {
+    "name": "krem444441",
+    "price": "10 PLN",
+    "expirationDate": "2017-12-10"
+  },
+  {
+    "name": "krem2",
+    "price": "20 PLN",
+    "expirationDate": "2017-10-23"
+  },
+  {
+    "name": "krem3",
+    "price": "30 PLN",
+    "expirationDate": "2017-02-20"
+  },
+  {
+    "name": "krem4",
+    "price": "40 PLN",
+    "expirationDate": "2017-01-01"
+  }
+]
