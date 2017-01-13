@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.css';
-var data = [];
+require('../styles/main.less');
 
 ReactDOM.render(
-  <App cosmeticList={data} />,
+  <App />,
   document.getElementById('root')
 );

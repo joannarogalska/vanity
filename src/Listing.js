@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 
 class Listing extends Component {
+    constructor() {
+        super();
+        this.state = {
+            today: {}
+        };
+    }
 
-    state = {
-        today: {}
-    };
-
-    componentWillReceiveProps(){
+    componentWillReceiveProps(nextProps){
+        //console.log(nextProps);
         this.setState({today : new Date()});
     }
 
